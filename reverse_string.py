@@ -1,4 +1,4 @@
-s = "54321"
+s = "reemas"
 rev_s = ""
 
 for char in s:
