@@ -3,3 +3,4 @@ for i in range(1,101):
         print(f"{i} is divisible with both 3 and 5")
 
 
+# i forgot to use %(modulus) operator
