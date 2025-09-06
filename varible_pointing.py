@@ -1,7 +1,7 @@
 a = [1,2, 3]
 b = [1, 2, 3]
 
-print(a ==b, a is b)
+print(a == b, a is b)
 
 ''' at first it will print true, 
 because the values in both a and b are same
