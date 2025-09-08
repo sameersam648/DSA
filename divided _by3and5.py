@@ -4,3 +4,5 @@ for i in range(1,101):
 
 
 # i forgot to use %(modulus) operator
+
+#it's easy i understood

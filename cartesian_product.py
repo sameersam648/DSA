@@ -2,3 +2,5 @@
 for i in range(1,4):
     for j in range(1,4):
         print((i,j))
+
+#output: it will print all the possible combinations of number of 1-4, withour repeating

@@ -9,3 +9,5 @@ for word in words:
     freq[word] = freq.get(word, 0) + 1
 
 print(freq)
+
+#why 0 and +1 ???

@@ -10,3 +10,4 @@ for num in arr:
         result.append(num) # only the non repeated elements are added to result list
 
 print(result)
+print(seen)
