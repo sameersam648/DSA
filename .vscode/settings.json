@@ -1,5 +1,6 @@
 {
     "python.autoComplete.extraPaths": [
         
-    ]
+    ],
+    "editor.suggest.showInterfaces": false
 }
