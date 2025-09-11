@@ -1,0 +1,21 @@
+class Students:
+    def __init__(self, name, roll_number):
+        self.name = name
+        self.roll_number = roll_number
+
+    def print_student(self):
+        print(f"Student's name : {self.name}, Student's Roll Number : {self.roll_number}")
+
+
+s1 = Students("Sameer", 100)
+s2 = Students("Nasreen", 101)
+
+s1.print_student()
+s2.print_student()
+
+
+# okay, i got many things cleared 
+# __init__ is a constructor
+#self is used to reffer the current object in the class so it is used everywhere
+
+#streak check
