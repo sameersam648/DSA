@@ -3,6 +3,5 @@ def negcheck(num):
         raise ValueError("Input cannot be negative")
     return num
 
-
 print(negcheck(10))
-print(negcheck(-10))
+negcheck(-10)
