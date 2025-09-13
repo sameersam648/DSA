@@ -1,12 +1,13 @@
 from collections import defaultdict
-words = ["data", "structures", "stack", "queue", "sorting", "search"]
 
-groups = defaultdict(list)
+words = ["data", "structures", "science", "stack", "queue"]
+
+grouped = defaultdict(list)
 
 for word in words:
-    first_letter = word[0]
-    groups[first_letter].append(word)
+    grouped[word[0]].append(word)
+
+print(dict(grouped))
 
 
-for letter, group in groups.items():
-    print(letter, " : ", groups)
+#i didn't get the complete idea of it >>>
