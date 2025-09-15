@@ -1,5 +1,2 @@
-word = "i love python"
-
-a, b, c= word.split(" ")
-
-print(c,b,a)
+s = "I love Python"
+print(" ".join(s.split()[::-1]))
